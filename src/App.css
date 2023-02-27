@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lobster&family=Montserrat:wght@200;300;800&family=Roboto:wght@300;400&family=Sofia&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F66000;
+}
+
+h1 {
+  width: 30vw;
+  height: 10vh;
+  font-size: 96px;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  margin-top: 7vh;
+  margin-left: 6vw;
+}
+
+p {
+  width: 7vw;
+  height: 7vh;
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  font-size: 64px;
+  margin-left: 17vw;
+  font-weight: bold;
+}
+
+h2 {
+  width: 30vw;
+  height: 8vh;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-size: 64px;
+  margin-top: 7vh;
+  margin-left: 7vw;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 45vw;
+  height: 46vh;
+  position: relative;
+  left: 5vw;
+  border: 1px solid black;
+}
+
+.card {
+  width: 11vw;
+  height: 23vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(74, 6, 231);
+}
+
+.imgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36vh;
+}
+
